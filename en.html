@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHANTAL</title>
+
+  
+
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/7689eee82e.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header__top-bar"></div>
+        <div class="wrapper">
+            <div class="header__top-bar-content">
+                <div class="header__phone">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>+48 537 825 914</span>
+                </div>
+                <div class="header__flags">
+                  <span>PL</span>
+                  <a href="../"><img src="img/poland_round_icon_64.png" alt=""></a>
+                  <span>EN</span>
+                  <a href="/en.html"><img src="img/united_kingdom_round_icon_64.png" alt=""></a>
+                  <span>DE</span>
+                  <a href="/de.html"><img src="img/germany_round_icon_64.png" alt=""></a>
+                  <span>FR</span>
+                  <a href="/fr.html"><img src="img/france_round_icon_64.png" alt=""></a>
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="header__logo">
+                    <a href=""><img src="img/logo.jpg" alt=""></a>
+                </div>
+                <div class="header__burger">
+                    <button class="header__burger-btn"><i class="fas fa-bars"></i></button>
+                </div>
+                <nav class="nav-mobile">
+                    <ul class="nav-mobile__list">
+                        <li class="nav-mobile__list-item"><a href="#">home</a></li>
+                        <li class="nav-mobile__list-item"><a href="#about-us">about us</a></li>
+                        <li class="nav-mobile__list-item nav-mobile__list-item--expanded"><a href="#offer">offer</a>
+                        
+                            <!-- <ul class="header__dropdown">
+                                <li>Link nr 1</li>
+                                <li>Link nr 2</li>
+                                <li>Link nr 3</li>
+                                <li>Link nr 4</li>
+                                <li>Link nr 5</li>
+                            </ul>
+                         -->
+                        </li>
+                        <li class="nav-mobile__list-item"><a href="#quotation">quote</a></li>
+                        <li class="nav-mobile__list-item"><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-desktop">
+                    <ul class="nav-desktop__list">
+                        <li class="nav-desktop__list-item"><a href="#">home</a></li>
+                        <li class="nav-desktop__list-item"><a href="#about-us">about us</a></li>
+                        <li class="nav-desktop__list-item nav-desktop__list-item--expanded"><a href="#offer">offer</a>
+                        
+                            <ul class="header__dropdown">
+                                <li>Link nr 1</li>
+                                <li>Link nr 2</li>
+                                <li>Link nr 3</li>
+                                <li>Link nr 4</li>
+                                <li>Link nr 5</li>
+                            </ul>
+                        
+                        </li>
+                        <li class="nav-desktop__list-item"><a href="#quotation">quote</a></li>
+                        <li class="nav-desktop__list-item"><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        </div>
+        <div class="header__banner">
+            <div class="white-block white-block-left"></div>
+            <div class="header-text">
+              <h4 class="header__text-subtitle">High-quality</h4>
+              <h2 class="header__text-title">construction agitators</h2>
+              <a href="#offer" class="header__text-btn">Check offer</a>
+            </div>
+            <img src="img/arrows.png" class="header__arrows">
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="about-us section-padding" id="about-us">
+            <h3 class="section-heading">about us</h3>
+           <div class="wrapper">
+            <p class="about-us__text">We are a young, but very rapidly growing company dealing with the production and distribution of construction agitators.
+              We manufacture high-quality agitators for mortars, gypsums, adhesives, plasters, concrete and paints. Thanks to good knowledge of the industry in which we operate, we produce products that are highly valued on the market. We offer a wide range of agitators in various size options.</p>
+            <p class="about-us__text">All agitators are made of high-quality steel. The products are galvanized, thanks to which they have protection and a guarantee of a long service life. The greatest proof of the high quality of our products is the fact that we don't receive any complaints.</p>
+            <p class="about-us__text">We are sure of our products, thanks to which a potential customer has the possibility of ordering free samples of our agitators. Thanks to our own transport, we provide transport of products throughout Europe at the best prices. </p>
+            <p class="about-us__text">We encourage you to get familiar with our offer. </p>
+           </div>
+        </section>
+        <section class="offer section-padding" id="offer">
+            <h3 class="section-heading">offer</h3>
+            <div class="wrapper">
+                <div class="offer__boxes">
+                    <div class="offer__box">
+                        <img src="img/product/product1.png" alt="" class="offer__box-img offer__box-img--one">
+                        <div class="offer__content">
+                            <h4 class="offer__content-heading">Galvanized agitator for heavy mortars: </h4>
+
+                            <div class="accordion" id="accordionExample">
+
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId1" aria-expanded="true" aria-controls="newBtnId1">
+                                    Galvanized agitator M14 120mm
+                                    </button>
+                                  </h2>
+                                  <div id="newBtnId1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      <ul>
+                                        <li><b>Product code: </b>GW12</li>
+                                        <li><b>Total length: </b>600mm</li>
+                                        <li><b>Agitator diameter: </b>120mm</li>
+                                        <li><b>Intended use: </b>plasters, adhesives, concrete</li>
+                                        <li><b>Maximum mass of the mixed substance: </b>25 kg</li>
+                                        <li><b>End of the rod:</b>threaded rod</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId2" aria-expanded="false" aria-controls="newBtnId2">
+                                       Galvanized agitator M14 140mm
+                                    </button>
+                                  </h2>
+                                  <div id="newBtnId2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>Product code: </b>GW14</li>
+                                            <li><b>Total length: </b>600mm</li>
+                                            <li><b>Agitator diameter: </b>140mm</li>
+                                            <li><b>Intended use: </b>plasters, adhesives, concrete</li>
+                                            <li><b>Maximum mass of the mixed substance: </b>35 kg</li>
+                                            <li><b>End of the rod:</b> threaded rod</li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                              </div>
+                            
+                    
+                        </div>
+                    </div>
+                    <div class="offer__box">
+                        <img src="img/product/product2.png" alt="" class="offer__box-img offer__box-img--two">
+                        <div class="offer__content">
+                            <h4 class="offer__content-heading">Construction agitators SDS: </h4>
+
+                            <div class="accordion" id="accordionExample2">
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId3" aria-expanded="true" aria-controls="newBtnId3">
+                                        Galvanized agitator SDS 80mm
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId3" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
+                                      <div class="accordion-body">
+                                        <ul>
+                                          <li><b>Product code: </b>SD8</li>
+                                          <li><b>Total length: </b>520mm</li>
+                                          <li><b>Agitator diameter: </b>80mm</li>
+                                          <li><b>Intended use: </b>plasters, adhesives, concreto, paints</li>
+                                          <li><b>End of the rod:</b>rod ended with an sds+ handle </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId4" aria-expanded="false" aria-controls="newBtnId4">
+                                        Galvanized agitator SDS 100mm
+                                    </button>
+                                  </h2>
+                                  <div id="newBtnId4" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>Product code: </b>SD10</li>
+                                            <li><b>Total length: </b>520mm</li>
+                                            <li><b>Agitator diameter: </b>100mm</li>
+                                            <li><b>Intended use: </b>plasters, adhesives, concreto, paints</li>
+                                            <li><b>End of the rod:</b>rod ended with an sds+ handle</li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId5" aria-expanded="false" aria-controls="newBtnId5">
+                                          Galvanized agitator SDS 120mm
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId5" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+                                      <div class="accordion-body">
+                                          <ul>
+                                              <li><b>Product code: </b>SD12</li>
+                                              <li><b>Total length: </b>520mm</li>
+                                              <li><b>Agitator diameter: </b>120mm</li>
+                                              <li><b>Intended use: </b>plasters, adhesives, concreto, paints</li>
+                                              <li><b>End of the rod:</b>rod ended with an sds+ handle</li>
+                                          </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+                              </div>
+                            
+                    
+                        </div>
+                    </div>
+                    <div class="offer__box">
+                        <img src="img/product/product3.png" alt="" class="offer__box-img offer__box-img--one">
+                        <div class="offer__content">
+                            <h4 class="offer__content-heading">Construction agitators: </h4>
+
+                            <div class="accordion" id="accordionExample3">
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId6" aria-expanded="true" aria-controls="newBtnId6">
+                                        Galvanized agitator 60mm
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId6" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample3">
+                                      <div class="accordion-body">
+                                        <ul>
+                                          <li><b>Product code: </b>MB6</li>
+                                          <li><b>Total length: </b>420mm</li>
+                                          <li><b>Agitator diameter: </b>60mm</li>
+                                          <li><b>Intended use: </b>plasters, adhesives, concrete, paints, varnishes, wood stains</li>
+                                          <li><b>End of the rod:</b>hexagonal handle </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId7" aria-expanded="false" aria-controls="newBtnId7">
+                                        Galvanized agitator 80mm
+                                    </button>
+                                  </h2>
+                                  <div id="newBtnId7" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample3">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>Product code: </b>MB8</li>
+                                            <li><b>Total length: </b>420mm</li>
+                                            <li><b>Agitator diameter: </b>80mm</li>
+                                            <li><b>Intended use: </b>plasters, adhesives, concrete, paints, varnishes, wood stains</li>
+                                            <li><b>End of the rod:</b>hexagonal handle </li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId8" aria-expanded="false" aria-controls="newBtnId8">
+                                            Galvanized agitator 100mm
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId8" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample3">
+                                      <div class="accordion-body">
+                                          <ul>
+                                              <li><b>Product code: </b>MB10</li>
+                                              <li><b>Total length: </b>520mm</li>
+                                              <li><b>Agitator diameter: </b>100mm</li>
+                                              <li><b>Intended use: </b>plasters, adhesives, concrete, paints, varnishes, wood stains</li>
+                                              <li><b>End of the rod:</b> hexagonal handle </li>
+                                          </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId9" aria-expanded="false" aria-controls="newBtnId9">
+                                        Galvanized agitator 120mm
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId9" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample3">
+                                      <div class="accordion-body">
+                                          <ul>
+                                              <li><b>Product code: </b>MB12</li>
+                                              <li><b>Total length: </b>520mm</li>
+                                              <li><b>Agitator diameter: </b>120mm</li>
+                                              <li><b>Intended use: </b>plasters, adhesives, concrete, paints, varnishes, wood stains</li>
+                                              <li><b>End of the rod:</b> hexagonal handle </li>
+                                          </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+                              </div>
+                            
+                    
+                        </div>
+                    </div>
+                    <div class="offer__box">
+                        <img src="img/product/product4.png" alt="" class="offer__box-img offer__box-img--two">
+                        <div class="offer__content">
+                            <h4 class="offer__content-heading">Cup agitator: </h4>
+
+                            <div class="accordion" id="accordionExample4">
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId10" aria-expanded="true" aria-controls="newBtnId10">
+                                        Galvanized agitator 60mm
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId10" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample4">
+                                      <div class="accordion-body">
+                                        <ul>
+                                          <li><b>Product code: </b>KL6</li>
+                                          <li><b>Total length: </b>420mm</li>
+                                          <li><b>Agitator diameter: </b>60mm</li>
+                                          <li><b>Intended use: </b>gypsum, plasters, adhesives</li>
+                                          <li><b>End of the rod:</b> hexagonal handle </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId11" aria-expanded="false" aria-controls="newBtnId11">
+                                        Galvanized agitator 80mm
+                                    </button>
+                                  </h2>
+                                  <div id="newBtnId11" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample4">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>Product code: </b>KL8</li>
+                                            <li><b>Total length: </b>420mm</li>
+                                            <li><b>Agitator diameter: </b>80mm</li>
+                                            <li><b>Intended use: </b>gypsum, plasters, adhesives</li>
+                                            <li><b>End of the rod:</b>hexagonal handle </li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId12" aria-expanded="false" aria-controls="newBtnId12">
+                                            Galvanized agitator 100mm
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId12" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample4">
+                                      <div class="accordion-body">
+                                          <ul>
+                                              <li><b>Product code: </b>KL10</li>
+                                              <li><b>Total length: </b>420mm</li>
+                                              <li><b>Agitator diameter: </b>100mm</li>
+                                              <li><b>Intended use: </b>gypsum, plasters, adhesives</li>
+                                              <li><b>End of the rod:</b> hexagonal handle </li>
+                                          </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId17" aria-expanded="false" aria-controls="newBtnId17">
+                                            Galvanized agitator 100mm SDS
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId17" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample4">
+                                      <div class="accordion-body">
+                                          <ul>
+                                              <li><b>Product code: </b>KL10S</li>
+                                              <li><b>Total length: </b>520mm</li>
+                                              <li><b>Agitator diameter: </b>100mm</li>
+                                              <li><b>Intended use: </b>gypsum, plasters, adhesives</li>
+                                              <li><b>End of the rod:</b> rod ended with an sds+ handle </li>
+                                          </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                              </div>
+                            
+                    
+                        </div>
+                    </div>
+                    <div class="offer__box">
+                        <img src="img/product/product5.png" alt="" class="offer__box-img offer__box-img--one">
+                        <div class="offer__content">
+                            <h4 class="offer__content-heading">Construction agitators: </h4>
+
+                            <div class="accordion" id="accordionExample5">
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId13" aria-expanded="true" aria-controls="newBtnId13">
+                                        Galvanized agitator 60mm
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId13" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample5">
+                                      <div class="accordion-body">
+                                        <ul>
+                                          <li><b>Product code: </b>MC6</li>
+                                          <li><b>Total length: </b>420mm</li>
+                                          <li><b>Agitator diameter: </b>60mm</li>
+                                          <li><b>Intended use: </b>plasters, adhesives, concrete, paints, varnishes, wood stains</li>
+                                          <li><b>End of the rod:</b>hexagonal handle </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId14" aria-expanded="false" aria-controls="newBtnId14">
+                                        Galvanized agitator 80mm
+                                    </button>
+                                  </h2>
+                                  <div id="newBtnId14" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample5">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>Product code: </b>MC8</li>
+                                            <li><b>Total length: </b>420mm</li>
+                                            <li><b>Agitator diameter: </b>80mm</li>
+                                            <li><b>Intended use: </b>plasters, adhesives, concrete, paints, varnishes, wood stains</li>
+                                            <li><b>End of the rod:</b>hexagonal handle </li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId18" aria-expanded="false" aria-controls="newBtnId18">
+                                        Galvanized agitator 100mm
+                                    </button>
+                                  </h2>
+                                  <div id="newBtnId18" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample5">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>Product code: </b>MC10</li>
+                                            <li><b>Total length: </b>420mm</li>
+                                            <li><b>Agitator diameter: </b>100mm</li>
+                                            <li><b>Intended use: </b>plasters, adhesives, concrete, paints, varnishes, wood stains</li>
+                                            <li><b>End of the rod:</b>hexagonal handle </li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+                            
+                    
+                        </div>
+                    </div>
+                    <div class="offer__box">
+                        <img src="img/product/product6.png" alt="" class="offer__box-img offer__box-img--two">
+                        <div class="offer__content">
+                            <h4 class="offer__content-heading">Agitator MINI: </h4>
+
+                            <div class="accordion" id="accordionExample6">
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId15" aria-expanded="true" aria-controls="newBtnId15">
+                                        Galvanized agitator MINI 55mm
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId15" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample6">
+                                      <div class="accordion-body">
+                                        <ul>
+                                          <li><b>Product code: </b>MM55</li>
+                                          <li><b>Agitator diameter: </b>55mm</li>
+                                          <li><b>Intended use: </b>paints, varnishes, wood stains</li>
+                                          <li><b>End of the rod:</b> hexagonal handle </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>                        
+
+                              </div>
+                            
+                    
+                        </div>
+                    </div>
+                    <div class="offer__box">
+                        <img src="img/product/product7.png" alt="" class="offer__box-img offer__box-img--one">
+                        <div class="offer__content">
+                            <h4 class="offer__content-heading">Construction agitators: </h4>
+
+                            <div class="accordion" id="accordionExample7">
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId16" aria-expanded="true" aria-controls="newBtnId16">
+                                        Galvanized agitator 80mm
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId16" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample7">
+                                      <div class="accordion-body">
+                                        <ul>
+                                          <li><b>Product code: </b>MK8</li>
+                                          <li><b>Total length: </b>420mm</li>
+                                          <li><b>Agitator diameter: </b>80mm</li>
+                                          <li><b>Intended use: </b>plasters, adhesives, concrete, paints, varnishes, wood stains</li>
+                                          <li><b>End of the rod:</b> hexagonal handle </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#newBtnId19" aria-expanded="false" aria-controls="newBtnId19">
+                                          Galvanized agitator 100mm
+                                      </button>
+                                    </h2>
+                                    <div id="newBtnId19" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample7">
+                                      <div class="accordion-body">
+                                          <ul>
+                                            <li><b>Product code: </b>MK10</li>
+                                            <li><b>Total length: </b>420mm</li>
+                                            <li><b>Agitator diameter: </b>100mm</li>
+                                            <li><b>Intended use: </b>plasters, adhesives, concrete, paints, varnishes, wood stains</li>
+                                            <li><b>End of the rod:</b> hexagonal handle </li>
+                                          </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                      
+
+                              </div>
+                            
+                    
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+        <section class="quotation section-padding" id="quotation">
+            <h3 class="section-heading">quote</h3>
+           <div class="wrapper">
+            <p class="quotation__text"> If you want to request a product quote, please contact us via our contact form.
+              The products are priced individually, taking into account many factors, including product model, demand and the place of delivery of the goods.</p>
+            <p class="quotation__text"> In the message, it is worth providing information about the quantity you are interested in (one-off/monthly/other), information about the postal code of the delivery/country of delivery. We have our own transport, so delivery costs are very attractive and consist only of fuel expenditures.</p>
+            <p class="quotation__text"> We are sure of the high quality of our products, which is why we offer the possibility to order free samples of the agitators.</p>
+            <p class="quotation__text"> Please contact us via the contact form below. </p>
+            <div class="white-block white-block-right"></div>
+           </div>
+           <div class="quotation__shadow"></div>
+        </section>
+        <section class="contact section-padding" id="contact">
+            <div class="white-block white-block-left"></div>
+            <h3 class="section-heading">contact form</h3>
+            <div class="wrapper">
+
+                <form action="#" class="contact__form">
+                  <label for="name" class="contact__form-label">FIRST NAME AND LAST NAME</label>
+                  <input type="text" class="contact__form-input" id="name" name="name">
+
+                  <label for="email" class="contact__form-label">E-MAIL ADRESS:</label>
+                  <input type="text" class="contact__form-input" id="email" name="email">
+
+                  <label for="phone" class="contact__form-label">PHONE NUMBER:</label>
+                  <input type="text" class="contact__form-input" id="phone" name="phone">
+
+                  <label for="msg" class="contact__form-label">Message content:</label>
+                  <textarea id="msg" class="contact__form-textarea" name="message"></textarea>
+
+                  <div class="contact__form-bottom">
+                    <span class="contact__form-span"></span>
+                    <button type="submit" class="contact__form-btn btn-special-animation">Send</button>
+                  </div>
+
+              </form>
+
+
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__main-content">
+                <div class="footer__contact footer__column">
+                    <h3 class="footer__column-heading">CONTACT DETAILS</h3>
+                    <div class="footer__contact-row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span> Zawoja 2476, 34-222 Zawoja</span>
+                    </div>
+                    <div class="footer__contact-row">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <span> +48 537 825 914</span>
+                    </div>
+                    <div class="footer__contact-row">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <span>contact@schantal.eu</span>
+                    </div>
+                    <div class="footer__contact-row">
+                        <i class="fas fa-building"></i>
+                        <span> Sales Regiment Kamil Trzebuniak</span>
+                    </div>
+                    <div class="footer__contact-row">
+                        <i class="fas fa-handshake"></i>
+                        <span> NIP EU: PL552 172 2649</span>
+                    </div>
+                </div>
+                <div class="footer__aboutus footer__column">
+                    <h3 class="footer__column-heading">SCHANTAL</h3>
+                    <p> We manufacture high-quality agitators for mortars, gypsums, adhesives, plasters, concrete and paints.</p>
+                    <p>All agitators are made of high-quality steel. The products are galvanized, thanks to which they have protection and a guarantee of a long service life. </p>
+                </div>
+                <div class="footer__links footer__column">
+                    <h3 class="footer__column-heading">WORTH CHECKING</h3>
+                    <ul class="footer__links-list">
+                        <li class="footer__links-item"><a href="#about-us">About us</a></li>
+                        <li class="footer__links-item"><a href="#offer">Offer</a></li>
+                        <li class="footer__links-item"><a href="#quotation">Quote</a></li>
+                        <li class="footer__links-item"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="footer__bottom-text"> © <span class="footer__year">2022</span> SCHANTAL </p>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/collapse.js"></script>
+    <script src="js/contact-form-en.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   
+</body>
+</html>
